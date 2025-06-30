@@ -26,10 +26,11 @@ const Header: React.FC = () => {
     { name: 'Clients', href: '#clients' },
     { name: 'Case Studies', href: '#case-study' },
     { name: 'Work', href: '#work' },
+    { name: 'Pricing', href: '#pricing' }, // ✅ Added Pricing
     { name: 'Contact Us', href: '#contact' },
   ];
 
-  if (!isHeroVisible) return null; // Hide header when hero is not in view
+  if (!isHeroVisible) return null;
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md transition-all duration-300">

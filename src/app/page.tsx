@@ -13,6 +13,8 @@ import CaseStudy from '@/components/casestudy'; // ✅ CaseStudy Component
 import VisualShowcase from '@/components/VisualShowcase'; // ✅ Newly added
 import USPSection from '@/components/USPSection';
 import ClientTestimonials from '@/components/ClientTestimonials';
+import Pricing from '@/components/Pricing';
+
 const HomePage: React.FC = () => {
   return (
     <div className="bg-black text-white antialiased relative">
@@ -26,6 +28,7 @@ const HomePage: React.FC = () => {
         <CaseStudy />
         <VisualShowcase /> {/* ✅ Added Visual Showcase section */}
         <ClientTestimonials />
+        <Pricing />
         <Contact />
       </main>
       <Footer />
