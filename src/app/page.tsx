@@ -9,11 +9,12 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import ChatBot from '../components/ChatBot';
 import Clients from '@/components/Clients';
-import CaseStudy from '@/components/casestudy'; // ✅ CaseStudy Component
-import VisualShowcase from '@/components/VisualShowcase'; // ✅ Newly added
+import CaseStudy from '@/components/casestudy';
+import VisualShowcase from '@/components/VisualShowcase';
 import USPSection from '@/components/USPSection';
 import ClientTestimonials from '@/components/ClientTestimonials';
 import Pricing from '@/components/Pricing';
+import GlobalReach from '@/components/GlobalReach'; // ✅ Import Global Reach
 
 const HomePage: React.FC = () => {
   return (
@@ -26,7 +27,8 @@ const HomePage: React.FC = () => {
         <Clients />
         <USPSection />
         <CaseStudy />
-        <VisualShowcase /> {/* ✅ Added Visual Showcase section */}
+        <VisualShowcase />
+        <GlobalReach /> {/* ✅ Global Reach Section Added */}
         <ClientTestimonials />
         <Pricing />
         <Contact />
